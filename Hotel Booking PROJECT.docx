@@ -1,0 +1,86 @@
+# 1. BUSINESS REQUIREMENTS DOCUMENT (BRD)
+## Project: Hotel Booking Insights and Cancellation Analysis
+## 1.1 Project Overview
+This system analyzes hotel booking data to understand trends, seasonality, customer preferences, and cancellation patterns. Insights help hotels reduce cancellations and improve occupancy rates.
+## 1.2 Business Objectives
+•	Identify peak booking seasons and customer patterns.
+•	Reduce cancellations by understanding root causes.
+•	Improve hotel occupancy rate.
+•	Support management with data-driven strategy planning.
+## 1.3 Problem Statement
+Hotels experience high cancellation rates and seasonal fluctuations but lack clear insights into customer behavior and operational gaps.
+## 1.4 Stakeholders
+•	Hotel Manager
+•	Reservation Team
+•	Revenue Management Team
+•	Marketing Department
+•	Data Analytics Team
+## 1.5 Scope
+## In-Scope:
+•	Booking trend analysis
+•	Cancellation pattern analysis
+•	Customer type analysis
+•	Power BI visualization
+## Out-of-Scope:
+•	Hotel website booking system changes
+•	Customer feedback collection
+## 1.6 Business Requirements
+•	R1: Analyze customer segments and booking patterns.
+•	R2: Determine cancellation trends and possible causes.
+•	R3: Power BI dashboard must show seasonal patterns.
+•	R4: Provide recommendations to reduce cancellations.
+## 1.7 Assumptions & Constraints
+•	Data must include booking status and customer type.
+•	No real-time updates required.
+________________________________________
+# 2. FUNCTIONAL REQUIREMENTS DOCUMENT (FRD)
+## Project: Hotel Booking Data Analysis System
+## 2.1 System Overview
+The system uses Excel/Python for data cleaning and Power BI for visualization of booking and cancellation insights.
+## 2.2 Functional Requirements
+•	F1: Analyze total bookings, cancellations, and customer segments.
+•	F2: Show seasonality trends (month, week).
+•	F3: Compare resort vs city hotels.
+•	F4: Provide recommendations through insights.
+## 2.3 Process Flow
+1.	Import and clean data.
+2.	Identify booking counts and categories.
+3.	Analyze cancellation rates.
+4.	Build KPI dashboards in Power BI.
+## 2.4 Data Requirements
+•	Booking status
+•	Arrival date
+•	Lead time
+•	Hotel type
+•	Customer type
+•	Market segment
+•	Duration of stay
+## 2.5 User Interface Requirements
+•	Monthly trend charts
+•	Hotel comparison visuals
+•	Cancellation rate KPIs
+•	Filters for customer type and hotel type
+## 2.6 Non-Functional Requirements
+•	Dashboard should load within 30 seconds.
+•	Should support multiple filters without performance issues.
+# 3. User Stories
+## User Story 1:
+As a Hotel Manager, I want to see booking trends so I can plan resources.
+Acceptance Criteria: Line chart of monthly bookings.
+## User Story 2:
+As a Revenue Manager, I want to analyze cancellation rates so I can reduce revenue loss.
+Acceptance Criteria: Cancellation trend chart with filters.
+________________________________________
+# 4. Use Case Document
+Use Case Name: Analyze Hotel Booking Data
+Actor: Hotel Manager, BA
+Trigger: Dashboard opens
+## Main Flow:
+1.	User opens dashboard
+2.	Dashboard loads KPIs
+3.	User applies filters
+4.	Dashboard updates
+5.	User reviews trends and insights
+## Postcondition:
+User understands booking behavior and cancellation patterns.
+
